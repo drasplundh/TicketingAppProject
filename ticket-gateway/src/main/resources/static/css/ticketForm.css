@@ -1,0 +1,54 @@
+.navbar {
+    background-color: #133E87;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    text-align: center
+}
+
+
+.card-container {
+    // background-color: #F3F3E0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    height: 100%;
+    // border-radius: 10px;
+}
+
+.nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: color 1s, background-color 1s;
+    border-radius: 5px;
+}
+.nav-link:hover {
+    color: #133E87;
+    background-color: white;
+}
+
+html, body {
+    height: 100%;
+    background-color: #CBDCEB;
+}
+
+.card {
+    background-color: #608BC1;
+    box-shadow: 3px 3px 3px black;
+
+
+    content-align: center;
+    padding: 1rem;
+}
+
+.ticket-form.container {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}

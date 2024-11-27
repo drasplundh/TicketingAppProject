@@ -1,0 +1,96 @@
+.navbar {
+    background-color: #133E87;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.active-tickets {
+    border-right: 2px solid #F3F3E0;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.card h5 {
+    padding: 10px;
+    background-color: #133E87;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+.side-info {
+    background-color: #F3F3E0;
+}
+
+/*.card p {
+    padding: 5px;
+    background-color: #608BC1;
+    color: white;
+    border-radius: 3px;
+} */
+
+.nav-info {
+    padding: 10px;
+        text-decoration: none;
+        color: white;
+}
+.nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: color 1s, background-color 1s;
+    border-radius: 5px;
+}
+.nav-link:hover {
+    color: #133E87;
+    background-color: white;
+}
+
+.nav-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.card-container {
+    padding-left: 15rem;
+    margin: 10px;
+    padding-right: 15rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    width: 16rem;
+    height
+    box-shadow: 3px 3px 3px black;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    background-color: #F3F3E0;
+
+    transition: margin-top 0.5s, margin-bottom 0.5s, box-shadow 0.5s;
+}
+
+.card:hover {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 7px 7px 7px black;
+}
+
+
+html, body {
+      height: 100%;
+      margin: 0;
+      background-color: #CBDCEB;
+      /* //background: rgb(243,243,224);
+      //background: linear-gradient(350deg, rgba(243,243,224,1) 61%, rgba(203,220,235,1) 84%, rgba(108,147,166,1) 100%);
+      background-size: cover; */
+}

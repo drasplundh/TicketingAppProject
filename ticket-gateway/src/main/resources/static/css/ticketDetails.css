@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #133E87;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: color 1s, background-color 1s;
+    border-radius: 5px;
+}
+.nav-link:hover {
+    color: #133E87;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-pad {
+    padding-left: 5px;
+}
+
+.card {
+    box-shadow: 3px 3px 3px black;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    background-color: #F3F3E0;
+}
+
+
+
+html, body {
+      height: 100%;
+      margin: 0;
+      background-color: #CBDCEB;
+      //background: rgb(243,243,224);
+      //background: linear-gradient(350deg, rgba(243,243,224,1) 61%, rgba(203,220,235,1) 84%, rgba(108,147,166,1) 100%);
+      background-size: cover;
+}

@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #133E87;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.side-info {
+    background-color: #F3F3E0;
+}
+
+.nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: color 1s, background-color 1s;
+    border-radius: 5px;
+}
+.nav-link:hover {
+    color: #133E87;
+    background-color: white;
+}
+
+.nav-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+html, body {
+      height: 100%;
+      margin: 0;
+      background-color: #CBDCEB;
+      //background: rgb(243,243,224);
+      //background: linear-gradient(350deg, rgba(243,243,224,1) 61%, rgba(203,220,235,1) 84%, rgba(108,147,166,1) 100%);
+      background-size: cover;
+}
